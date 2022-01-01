@@ -11,7 +11,9 @@ const App: FC = () => {
     return (
         <AppContainer>
             <Header />
-            <Outlet />
+            <main className='main'>
+                <Outlet />
+            </main>
         </AppContainer>
     );
 };
